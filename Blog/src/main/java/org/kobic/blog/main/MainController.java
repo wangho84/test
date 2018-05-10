@@ -10,6 +10,8 @@ public class MainController {
 	@RequestMapping(value = "/")
 	public ModelAndView mainView(ModelAndView mv) {
 		
+		System.out.println("git test");
+		
 		mv.setViewName("/main/main");
 		
 		return mv;
